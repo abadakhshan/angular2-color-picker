@@ -1,6 +1,6 @@
 {
   "name": "narik-angular-color-picker",
-  "version": "2.0.2",
+  "version": "2.0.9",
   "description": "narik-angular-color-picker",
   "main": "./dist/umd/narik-angular-color-picker.js",
   "module": "./dist/umd/narik-angular-color-picker.js",
@@ -28,10 +28,11 @@
     "url": "git+https://github.com/abadakhshan/narik-angular-color-picker.git"
   },
   "keywords": [
-   "narik",
+    "narik",
     "angular",
     "angular2",
     "angular4",
+    "angular6",
     "bootstrap",
     "colorPicker"
   ],
@@ -56,6 +57,7 @@
     "@types/node": "^7.0.0",
     "@types/sinon": "^2.2.1",
     "@types/sinon-chai": "^2.7.27",
+    "@types/tapable": "^0.2.5",
     "@types/webpack": "^2.2.12",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.1.2",
@@ -108,5 +110,8 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "node-sass": "^4.9.2"
   }
 }
